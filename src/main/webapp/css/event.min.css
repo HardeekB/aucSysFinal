@@ -1,0 +1,161 @@
+body {
+  background-color: #eee;
+}
+.title {
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+.card-block {
+  font-size: 1em;
+  position: relative;
+  margin: 0;
+  padding: 1em;
+  border: none;
+  border-top: 1px solid rgba(34, 36, 38, 0.1);
+  box-shadow: none;
+}
+.card {
+  font-size: 1em;
+  overflow: hidden;
+  padding: 5;
+  border: none;
+  border-radius: 0.28571429rem;
+  box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+  margin-top: 20px;
+  flex-direction: row;
+  align-items: center;
+}
+.btn {
+  margin-top: auto;
+}
+.card-title {
+  font-weight: 700;
+}
+.card img {
+  width: 30%;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: calc(0.25rem - 1px);
+}
+@media only screen and (max-width: 768px) {
+  a {
+    display: none;
+  }
+  .card-body {
+    padding: 0.5em 1.2em;
+  }
+  .card-body .card-text {
+    margin: 0;
+  }
+  .card img {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .card img {
+    width: 40%;
+  }
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 102px;
+}
+.footer {
+  left: 0;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  padding: 20px;
+}
+nav {
+  padding: 0 100px;
+}
+* {
+  box-sizing: border-box;
+}
+#search {
+  outline: 0;
+  border: none;
+  display: inline-block;
+}
+#burgundy {
+  color: #99283b;
+}
+#orange,
+select {
+  color: orange;
+}
+footer {
+  margin-top: auto;
+}
+footer {
+  min-height: 50px;
+  background: #000;
+}
+section {
+  font-family: Calibri, sans-serif;
+  max-width: 1024px;
+  width: 100%;
+  height: 100%;
+  background-color: #dedede;
+  margin: auto;
+  padding: 20px;
+  overflow: hidden;
+}
+.tabs {
+  width: 100%;
+  display: inline-block;
+}
+.tab-links:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+.tab-links li {
+  margin: 0;
+  float: left;
+  list-style: none;
+}
+.tab-links a {
+  padding: 9px 30px 5px 30px;
+  display: inline-block;
+  border-radius: 2px 2px 0 0;
+  background: #2e5c8a;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffad5c;
+  transition: all linear 0.3s;
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+}
+.tab-links a:hover {
+  background: #f33;
+  color: #ebebeb;
+  text-decoration: none;
+}
+li.active a,
+li.active a:hover {
+  background: #fff;
+  color: #4c4c4c;
+}
+.tab-content {
+  width: 960px;
+  border-radius: 3px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.45);
+  background: #fff;
+  margin-top: -16px;
+  padding: 15px;
+}
+.tab {
+  display: none;
+}
+.tab.active {
+  display: block;
+}

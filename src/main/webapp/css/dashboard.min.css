@@ -1,0 +1,281 @@
+* {
+  box-sizing: border-box;
+}
+#search {
+  outline: 0;
+  border: none;
+  display: inline-block;
+}
+#burgundy {
+  color: #99283b;
+}
+#orange,
+.btn,
+select {
+  color: orange;
+}
+.fa-search {
+  font-size: 20px;
+  padding: 10px;
+  margin-bottom: 3px;
+  padding-right: 20px;
+}
+.search-nav-item {
+  height: 40px;
+}
+nav {
+  padding: 0 100px;
+}
+.fa-shopping-cart,
+.fa-user-o {
+  font-size: 20px;
+  padding: 4px;
+}
+.form-group {
+  margin-bottom: 5px;
+}
+label {
+  padding-left: 10px;
+}
+.form-group:last-child {
+  margin-bottom: 0;
+}
+h6 {
+  margin-bottom: 0;
+}
+#sort {
+  outline: 0;
+  border: none;
+}
+.btn {
+  border: 1px solid orange;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.btn:hover {
+  color: #fff;
+  background-color: orange;
+}
+.card-body {
+  padding: 8px;
+}
+.sign {
+  width: 25px;
+  height: 25px;
+}
+.discount {
+  border: 1px solid orange;
+  border-radius: 5px;
+  width: 65px;
+  position: absolute;
+  top: 2%;
+}
+@media (min-width: 1200px) {
+  #search {
+    width: 300px;
+    padding: 5px;
+    padding-left: 20px;
+  }
+  .search-nav-item {
+    margin-left: 400px;
+    width: 350px;
+  }
+  .fa-user-o {
+    margin-left: 300px;
+  }
+  .text {
+    display: none;
+  }
+  .fa-shopping-cart,
+  .fa-user-o {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+  #sidebar {
+    width: 30%;
+    padding: 20px;
+    float: left;
+  }
+  #products {
+    width: 70%;
+    padding: 10px;
+    margin: 0;
+    float: right;
+  }
+  .card {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000;
+  }
+  .card-img-top {
+    width: 295px;
+    height: 200px;
+    border-radius: 10px;
+  }
+  del {
+    padding-right: 2px;
+  }
+  #mobile-filter,
+  .filter {
+    display: none;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #search {
+    width: 300px;
+    padding: 5px;
+    padding-left: 20px;
+  }
+  .search-nav-item {
+    margin-left: 200px;
+    width: 350px;
+  }
+  .fa-user-o {
+    margin-left: 160px;
+  }
+  .text {
+    display: none;
+  }
+  #sidebar {
+    width: 30%;
+    padding: 20px;
+    float: left;
+  }
+  #products {
+    width: 70%;
+    padding: 10px;
+    margin: 0;
+    float: right;
+  }
+  .card {
+    width: 200px;
+    height: 330px;
+    border: none;
+  }
+  .card-img-top {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+  }
+  .fa-minus,
+  .fa-plus {
+    font-size: 12px;
+  }
+  .sign {
+    height: 25px;
+  }
+  .price {
+    width: 99px;
+  }
+  #mobile-filter,
+  .filter {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #search {
+    width: 300px;
+    padding: 5px;
+    padding-left: 20px;
+  }
+  .search-nav-item {
+    margin-left: 60px;
+    width: 350px;
+  }
+  .fa-user-o {
+    margin-left: 80px;
+  }
+  .text {
+    display: none;
+  }
+  #sidebar {
+    width: 35%;
+    padding: 20px;
+    float: left;
+  }
+  #products {
+    width: 65%;
+    padding: 10px;
+    margin: 0;
+    float: right;
+  }
+  .card {
+    border: none;
+  }
+  #mobile-filter,
+  .filter {
+    display: none;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .text {
+    display: none;
+  }
+  .search-nav-item {
+    margin-left: 35px;
+    width: 270px;
+  }
+  #search {
+    width: 240px;
+    padding: 5px;
+    padding-left: 20px;
+  }
+  .fa-search {
+    padding: 3px;
+    font-size: 18px;
+  }
+  #sidebar {
+    width: 40%;
+    padding: 20px;
+    float: left;
+  }
+  #products {
+    width: 60%;
+    padding: 10px;
+    margin: 0;
+    float: right;
+  }
+  .card {
+    border: none;
+  }
+  #off {
+    padding-left: 2px;
+  }
+  #res,
+  #sorting span {
+    font-size: 14px;
+  }
+  #mobile-filter,
+  .filter {
+    display: none;
+  }
+}
+@media (max-width: 575px) {
+  .search-nav-item {
+    margin: 0;
+    width: 100%;
+    margin-top: 10px;
+  }
+  #search {
+    width: 80%;
+    padding-left: 10px;
+    margin-top: 10px;
+    padding-right: 10px;
+  }
+  .fa-search {
+    padding: 10px;
+    font-size: 18px;
+  }
+  #sidebar {
+    display: none;
+  }
+  .filter {
+    margin-left: 70%;
+    margin-top: 2%;
+  }
+  #res,
+  #sorting {
+    font-size: 12px;
+    margin-top: 2%;
+  }
+}
