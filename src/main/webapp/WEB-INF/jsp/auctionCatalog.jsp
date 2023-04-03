@@ -44,11 +44,11 @@
                         <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">End Time<span class="text-danger"> *</span></label> <input type="time" id="lname" name="endTime" placeholder="Enter end time" onblur="validate(2)"> </div> 
                    
                     </div>
-                    
+                    <hr class="dashed">
                 	<div class="row justify-content-between text-left">
                         <div class="form-group col-sm-6 flex-column d-flex"> 
-                        <label class="form-control-label px-3">Select Image of the Item<span class="text-danger"> *</span></label> 
-                        <input type="file" id="auctionImage" name="auctionImage" placeholder="Choose File" onblur="validate(1)" > </div>
+                        <!-- <label class="form-control-label px-3">Select Image of the Item<span class="text-danger"> *</span></label> 
+                        <input type="file" id="auctionImage" name="auctionImage" placeholder="Choose File" onblur="validate(1)" > </div> -->
                     </div>                    
                     
                     <br> 
